@@ -1,0 +1,5 @@
+Pasos para crear un repositorio en Linux
+1.Utilizando mkdir crear un directorio que será el repositorio. También se puede utilizar mkdir -p para crear carpetas anidadas en caso de que esto es lo que se desee.
+2. Desde la carpeta creada utilizar git init para transformarla en repositorio.
+3 Utilizar git config --global user.email "email del usuario" y git config --global user.name "nombre del usuario" para vincular el repositorio al usuario indicado con los comandos.
+
