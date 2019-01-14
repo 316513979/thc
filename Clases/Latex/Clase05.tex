@@ -1,0 +1,69 @@
+\documentclass[letter paper, 12pt, oneside]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+
+\title{\Huge Clase 04}
+\author{Diego Armando Santillán Arriaga}
+\date{10/01/2019}
+
+
+\begin{document}
+	\maketitle
+\newpage
+\title{\huge\textbf{Cadenas  en python}}
+
+
+Una cadena en python es un conjunto de caracteres que esta delimitado por \textbf{comillas simples}, \textbf{dobles} o \textbf{triples}:
+
+
+~las cadenas de limitadas por comillas simples (') o dobles (") se despliegan en una sola linea. 
+
+
+~las cadenas delimitadas por tres comillas simples (''') se despliegan en multiples lineas. 
+
+
+Para desplegar una cadena es necesario colocar el comando \textbf{print "cadena de texto"}. Cabe mencionar que los caracteres de la cadena pueden ser de cualquier naturaleza. 
+
+
+Por otro lado es posible colocar una variable en una cadena y darle formato. Esto se hace escribiendo en la cadena en el lugar de la variable el signo de \textbf{porcentaje} seguido de un codigo (g, d, 5d, e, E, etc) segun el formato que se le quiera dar a la variable. Despues al final de la cadena se vuelve a escribir el signo de \textbf{porcentaje} y entre parentesis las variables de la cadena el mismo orden en que estan escritas. 
+
+
+
+\title{\huge\textbf{Modulos en python}}
+	
+
+En python un \textbf{modulo} es una biblioteca en donde estan definidas una serie de funciones que se deben de importar para utilizar. Para ello se utiliza el comando \textbf{import "nombre del modulo que se va a importar"}. Un ejemplo es la funcion raiz cuadrada: para calcularla es necesario importar la biblioteca math. 
+
+Para utilizar una funcion de una biblioteca se escribe el \textbf{"nombre de la biblioteca"."nombre de la funcion"}. Por ejemplo en el caso de la raiz cuadrada se escribe math.sqrt("valor del que se desea calcular la raiz cuadrada").
+
+
+Por otro lado, es posible crear un modulo. Para ello en un programa (archivo de texto plano) definimos las funciones utilizando los siguientescomandos en el orden indicado:
+
+
+\textbf{def "nombre de la funcion"(variable independiente 1, variable independiente 2, ...)}
+
+\textbf{"Escribimos la funcion"}
+
+
+\textbf{return(variable dependiente)} 
+
+
+Esto se hace por cada funcion que se quiera construir. Posteriormente se importa el programa al shell utilizando import y el nombre con el que se guardo. Luego para usar las funciones se escribe \textbf{"nombre del documento."nombre de la funcion"}.
+
+
+\newpage
+\title{\huge\textbf{LaTex}}
+
+
+En las primeras lineas del documento se establece el tipo de letra y de documento con documentclass; se instalan los paquetes que se van a utilizar como "amsmath" para instrumentos de matematicas o "xcolor" para agregar color. 
+
+
+Para comenzar a redactar el documento se debe de escribir begin{document} y despues end{document}. El texto estara escruto entre estos dos comandos. 
+Para agregar formato al texto se utilizan comandos como Huge para aumentar el tamano del texto o textbf para escribir en "negritas". 
+
+\end{document}
+

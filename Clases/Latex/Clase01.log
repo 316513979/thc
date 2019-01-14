@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.13)  13 JAN 2019 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.13)  13 JAN 2019 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,7 +225,7 @@ e
 Here is how much of TeX's memory you used:
  2787 strings out of 494587
  37547 string characters out of 6177759
- 105970 words of memory out of 5000000
+ 105958 words of memory out of 5000000
  6409 multiletter control sequences out of 15000+600000
  6514 words of font info for 24 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -234,7 +234,7 @@ Here is how much of TeX's memory you used:
 /cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 >
-Output written on Clase01.pdf (3 pages, 42197 bytes).
+Output written on Clase01.pdf (3 pages, 42275 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
