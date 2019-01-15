@@ -14,35 +14,38 @@
 \begin{document}
 	\maketitle
 \newpage
-\title{\huge\textbf{ Sistemas Operativos}}
+\section{ Sistemas Operativos}
 
 Un sistema operativo es un conjunto de programas que se encargan de controlar el hardware de una computadora. Gracias al sistema operativo nos es posible utilizar aplicaciones y programas en nuestra computadora. 
-Existen multiples sistemas operativos. Los mas populares son \textbf{Windows, iOS y Linux}.Este ultimo se puede obtener en alguna de sus distribuciones(conjunto de software ya configurado) que son Fedora, Ubuntu y Debian entre otras. Ademas Linux destaca por ser un sistema operativo de software libre lo cual implica que es posible modificarlo.
+Existen múltiples sistemas operativos. Los más populares son \textbf{Windows, iOS y Linux}.Este último se puede obtener en alguna de sus distribuciones(conjunto de software ya configurado): Fedora, Ubuntu o Debian entre otras. Además Linux destaca por ser un sistema operativo de software libre lo cual implica que es posible modificarlo.
 
-\title{\huge\textbf{Linux}}
+\section{Linux}
 
-Como cualquier sistema operativo Linux tiene un entorno grafico, esto es un "menu" en el que se puede navegar para ejecutar programas, abrir y guardar documentos y, en general, administrar la computadora. Sin embargo para poder tener un mayor acceso al sistema operativo es necesario utilizar la \textbf{linea de comandos}. Su funcionamiento consiste en escribir y ejecutar codigos especiales que cumplen funciones determinadas.En el caso de Linux a estos codigos se les llama comandos bash mientras que la linea de comandos es un interprete de comandos bash. Esto se debe a que Linux utiliza bash, que es un programa informatico, para recibir e interpretar ordenes. 
+Como cualquier sistema operativo Linux tiene un entorno grafico, esto es un "menú" en el que se puede navegar para ejecutar programas, abrir y guardar documentos y, en general, administrar la computadora. Sin embargo para poder tener un mayor acceso al sistema operativo es necesario utilizar la \textbf{línea de comandos}. Su funcionamiento consiste en escribir y ejecutar códigos especiales que cumplen funciones determinadas.En el caso de Linux a estos códigos se les llama comandos bash mientras que la línea de comandos es un intérprete de comandos bash. Esto se debe a que Linux utiliza el programa informático bash para recibir e interpretar ordenes. 
 
- \title{\huge\textbf{Archivos en Linux}}
+ \section{Archivos en Linux}
  
  
- En Linux el uso de un archivo esta limitado por ciertos permisos. Hay 3 tipos de permisos, de lectura(r), de escritura(w) y de ejecucion(x).
- Estos se pueden otorgar al usuario de la computadora, a un grupo con el que se compartan archivos y al publico en general. Es decir los permisos rwx se asignan a cada uno de estos "sujetos". Es importante tener en cuenta que cada permiso tiene un numero asociado, el de lectura 4, el de escritura 2 y el de ejecucion1. Al final se suman los numeros de todos los permisos que tiene un archivo para un sujeto. Posteriormente los totales obtenidos para cada "sujeto" se colocan juntos de modo que forman un numero de 3 cifras. Esto indicara los permisos que tiene un archivo.  
+ En Linux el uso de un archivo esta limitado por ciertos permisos. Hay 3 tipos de permisos, de lectura(r), de escritura(w) y de ejecución(x).
+ Estos se otorgan al usuario de la computadora, a grupos con los que se comparten archivos y al público en general. Es decir los permisos rwx se asignan a cada uno de estos "sujetos". Es importante tener en cuenta que cada permiso tiene un número asociado: el de lectura 4, el de escritura 2 y el de ejecución 1. Al final se suman los números de todos los permisos que tiene un archivo para un sujeto y después con los dígitos resultantes se forma un número de 3 cifras que indica los permisos que tiene un archivo.  
  
- Para conocer los permisos de un archivo y su numero de 3 cifras correspondiente se utiliza el comando \textbf{ls-l  "nombre del archivo"}. Por otro lado para cambiar los permisos de un documento se utiliza \textbf{chmod nnn "nombre del archivo"}. En el lugar en donde estan las enes se debe de colocar el nuevo numero de 3 cifras, segun los permisos que se quiera asignar a cada "sujeto".
+ 
+ Para conocer los permisos de un archivo y su número de 3 cifras correspondiente se utiliza el comando \textbf{ls-l  "nombre del archivo"}. Por otro lado para cambiar los permisos de un documento se utiliza \textbf{chmod nnn "nombre del archivo"}. En el lugar en donde están las enes se debe de colocar el nuevo número de 3 cifras, según los permisos que se quieran asignar a cada "sujeto".
  
  \newpage
- \title{\huge\textbf{Variables de entorno}}
+ \section{Variables de entorno}
  
  Las variables de entorno definen la forma en que trabaja el sistema y permiten modificar como "se comporta" el shell. Un ejemplo es la variable PATH que permite buscar variables binarias. El comando \textbf{set} se utiliza para observar las variables de entorno. 
  
-\textbf{Comandos utiles}
+\section{Comandos útiles}
 
 
 
-\textbf{uname -a}: arroja informacion sobre el kernel (parte principal del sistema operativo)
+\textbf{uname -a}: arroja información sobre el kernel (programa fundamental del sistema operativo encargado de gestionar los recursos del hardware).
 
-\textbf{touch "nombre de archivo"}: crea un archivo vacio.
+\textbf{touch "nombre de archivo"}: crea un archivo vacío.
 
 \end{document}
+
+
 

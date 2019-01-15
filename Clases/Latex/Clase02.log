@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.13)  14 JAN 2019 08:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.13)  15 JAN 2019 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,28 +220,24 @@ e
 ))
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (26.76744pt too wide) in paragraph at lines 52--53
-[]\OT1/cmr/bx/n/24.88 Como crear un repos-i-to-rio github 
- []
-
-[2] (./Clase02.aux) ) 
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
+[3] (./Clase02.aux) ) 
 Here is how much of TeX's memory you used:
- 2787 strings out of 494587
- 37547 string characters out of 6177759
- 105958 words of memory out of 5000000
- 6409 multiletter control sequences out of 15000+600000
- 6514 words of font info for 24 fonts, out of 8000000 for 9000
+ 2793 strings out of 494587
+ 37635 string characters out of 6177759
+ 106958 words of memory out of 5000000
+ 6415 multiletter control sequences out of 15000+600000
+ 6813 words of font info for 25 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,7n,35p,916b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,35p,911b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 >
-Output written on Clase02.pdf (2 pages, 40649 bytes).
+Output written on Clase02.pdf (3 pages, 41732 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 26 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
