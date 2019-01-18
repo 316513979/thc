@@ -1,3 +1,9 @@
+#!/usr/bin/python2.7
+# -*- coding: utf-8 -*-
+# 316513979, Diego Armando Santillán Arriaga, Taller de Herramientas Computacionales
+# El objetivo de este programa es utilizar las fórmulas de tiro parabólico
+# para calcular a partir de la velocidad inicial y la altura de un proyectil
+# el instante en el que se encuentra.
 
 import Problema2
 

@@ -1,15 +1,16 @@
-def fib(x):
+
+def fib(n):
     i=2
-    p=0
-    
-    if x<3:
-        if x == 1:
-            print (0)
+    a=0
+    b=1
+    if n<3:
+        if n == 1:
+            return 0
         else:
-            print (1)
+            return 1
     else:
-        while i<x:
+        while i<n:
             i=i+1
-            p=p+1
-            s=p+(p-1)
-        print(s)
+            a,b = b,a+b
+        return b
+        
