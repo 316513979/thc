@@ -1,0 +1,114 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Clase 10}
+\author{Diego Armando Santillán Arriaga}
+\date{18/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section{Operaciones booleanas en Python}
+ 
+Para saber el tipo de una variable se utiliza:
+type("nombre de la variable")
+
+Para sumar una cantidad a una variable para fijar un incremento
+o decremento se utiliza: 
+"nombre de la variable"+= "cantidad que se agregará a la variable"
+
+Cuando el cambio es de uno en uno se escribe "variable"+=i
+Esto funciona para cualquier operador (*, +, -, etc)
+
+El resultado de comparar una variable que ya tiene un valor asignado con
+otro valor es True o False. Esto es una operación booleana. 
+\\
+\textbf{Ejemplo:}
+>>> a = 10
+>>> a == 20
+False
+>>> a == 10
+True
+
+Aparte de la comparación se pueden utilizar los siguientes operadores booleanso:
+ != : negación
+ >>> a= 10
+ >>> a!=20
+ True
+ 
+ not ("condición que se va a negar"): tambien es una negacón
+ >>> a=10
+ >>> not (a == 20)
+ True
+ 
+ <, >, >=, <= : comparación de magnitudes
+ >>> a=10
+ >>> a<=20
+ True
+ 
+ Evaluación booleana: valora si algo es verdad o no. 
+ bool(variable)
+ En el caso de cadenas de caractéres el resultado de bool es Falso solamente
+ si la variable es la cadena vacía (" ")
+ En el caso de valores numéricos el resultado de bool es Falso solamente
+ si la variable es 0.
+ En el caso de las listas (valores o cadenas entre corchetes) el resultado de bool es Falso solamente si la variable es la lista vacía ([])
+ 
+ if puede it sin else pero no al revés.
+ if bool(variable) == True: .... es lo mismo que if bool(variable):
+ 
+\section{Listas y operaciones entre listas}
+
+Las listas son valores, cadenas, listas contenidas dentro de corchetes:
+>>> L=[2,3,4,4,6]
+>>> P=[2,3, 'Hola']
+
+Para acceder los elementos dentro de una lista se utiliza:
+"nombre de la lista"["índice del elemento"]
+Los elementos se numeran empezando desde el 0
+
+Para saber cuantos elementos tiene una lista se utiliza:
+len("nombre de la lista")
+Un lista que es elemento de otra lista solo es contabilizada como un elemento. 
+Si uno de los elementos de la lista es otra lista se puede escribir len("nombre de la lista"["indice del elemento]) para contabilizar sus elementos.
+
+Para insertar un elemento AL FINAL de una lista se utiliza "nombre de la lista".append("elemento").
+
+Para insertar un elemento en una lista en la posición que querramos se utiliza "nombre de la lista".insert(índice de la posición en donde quiero que esté, "elemento").
+
+Para sacar un elemento de la lista se utiliza "nombre de la lista".pop("índice del elemento que va a retirar") y lo despliega.
+
+La posición de un elemento de la lista es: posición = índice + 1. Esto también aplica para el número de elemento numerando la lista desde el 1.
+
+Para agregar varios elementos a una lista en un solo comando se utiliza: "nombre de la lista".extend(lista con los elementos que se van a agregar) 
+ 
+Para asginar los elementos de la lista a un conjunto de variables se utiliza:
+variable1, variable2, variable3, ... = "nombre de la lista". Esto toma un elemento de la lista y lo asigna a la variable correspondiente y así sucesivamente. No modifca la lista, solamente hace una asignación. 
+
+Las listas nos permiten almacenar varios elementos en una sola variable. 
+
+Para crear listas más facilmente sin tener que introducir cada dato manualmente se escribe
+"nombre de la lista"= range(límite inferior, límite superior, incremento]. El primer elemento será el límite inferior, el segundo será el límite inferior más el incremento y así sucesivamente hasta el máximo número obtenido sumando el incremento que esté antes del límite superior (el intervalo considerado es [limite inferior, límite superior)).
+
+\section{Ciclos for}
+
+Podemos combinar un ciclo for con una lista de manera que se ejecute una instrucción a cada elemento de la lista. Al principio del ciclo for se introduce una variable que representará los elementos de la lista. Esta es la que se debe de usar al escribir la instrucción. 
+\\\\
+\textbf{for "variable que representara elementos de la lista" in "nombre de la lista":
+"instrucción"}
+\\\\
+El for tomará cada variable de la lista y le aplicará la instrucción. 
+Se puede utilizar un while para realizar la tera de un for y viceversa solo que dieferen en cierta medida. 
+
+
+
+\end{document}
+
+
+
+
+
