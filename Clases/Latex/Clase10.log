@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.13)  21 JAN 2019 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.13)  19 JAN 2019 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Clase08.tex
-(./Clase08.tex
+**Clase10.tex
+(./Clase10.tex
 LaTeX2e <2018-04-01> patch level 5
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -133,8 +133,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
-) (./Clase08.aux)
-\openout1 = `Clase08.aux'.
+) (./Clase10.aux)
+\openout1 = `Clase10.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -220,38 +220,119 @@ e
 ))
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 17--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
+Underfull \hbox (badness 10000) in paragraph at lines 17--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--54
+Underfull \hbox (badness 10000) in paragraph at lines 17--31
 
  []
 
-[3] [4] (./Clase08.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--31
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Overfull \hbox (15.03389pt too wide) in paragraph at lines 73--102
+\OT1/cmr/m/n/12 Para sacar un el-e-mento de la lista se uti-liza \OT1/cmr/bx/n/
+12 "nom-bre de la lista".pop("^^S^^Pndice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--102
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 105--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--112
+
+ []
+
+[4] (./Clase10.aux) ) 
 Here is how much of TeX's memory you used:
- 2795 strings out of 494587
- 37660 string characters out of 6177759
- 106956 words of memory out of 5000000
- 6417 multiletter control sequences out of 15000+600000
- 7120 words of font info for 26 fonts, out of 8000000 for 9000
+ 2794 strings out of 494587
+ 37618 string characters out of 6177759
+ 107956 words of memory out of 5000000
+ 6415 multiletter control sequences out of 15000+600000
+ 6982 words of font info for 26 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,7n,35p,590b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
-.pfb>
-Output written on Clase08.pdf (4 pages, 46187 bytes).
+ 41i,7n,35p,408b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Clase10.pdf (4 pages, 52440 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

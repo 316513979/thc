@@ -5,6 +5,6 @@
 
 import Problema5
 n=input ("Introduce un número natural: ")
-print ("La suma de los primeros %d naturales es %d" % (n, Problema5.sumanaturales(n)))
+print ("La suma de los números naturales desde el 0 hasta el %d es %d" % (n, Problema5.sumanaturales(n)))
 
 

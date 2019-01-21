@@ -5,9 +5,9 @@
 # centígrados a fahrenheit y viceversa. 
 
 import Problema3
-
-a=input ('Convertir de grados ')
-b=input ('a grados ')
+print 'El texto se escribe entre comillas'
+a=input ('Convertir de grados (centígrados o fahrenheit)')
+b=input ('a grados (centígrados o fahrenheit)')
 
 if a == 'centígrados' and b == 'fahrenheit':
     x= input ('Introduce la temperatura en grados centígrados: ')

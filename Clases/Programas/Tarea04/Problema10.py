@@ -4,7 +4,7 @@ def diasasueto(x):
         return '1 de enero (año nuevo)'
     else:
         if x == 'febrero':
-            return '4 de febrero (día de la Constitución Mexicana'
+            return '4 de febrero (día de la Constitución Mexicana)'
         else:
             if x == 'marzo':
                 return '18 de marzo (natalicio de Benito Juárez)'
