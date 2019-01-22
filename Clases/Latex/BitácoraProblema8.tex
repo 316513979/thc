@@ -1,0 +1,23 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 8}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+El problema consiste es en generar una función que devuelva la cantidad de números pares e impares que hay entre dos enteros. 
+\section*{Analizar y delimitar}
+El dominio y rango de la función son los números reales. Para calcular el promedio se utilizará la expresión $ m = \frac{v1+v2+v3+v4+v5+v6+v7+v8+v9+v10}{10} $. Por otro lado para determinar que número es el mayor y que número es el menor se utilizarán condicionales if y else y el operador lógico and. 
+\section*{Solución}
+Para el promedio lo función recibe los 10 valores, con la fórmula mostrada anteriormente calcula el promedio y lo asigna a una variable y finalmente lo despliega en una cadena de texto. 
+Para el mayor la función consiste ve varios condicionales if y else anidados. El primer if se activa si el primer valor que se introdujo es mayor que todos los demás. Si es así entonces la función devuelve este valor. De lo contrario pasa al bloque del primerelse dentro de l cual se abren otros 2 condicionales if else. Esta vez el if se activa si el segundo valor que se introdujo es mayor que todos los demás y de ser así, devuelve este valor. De lo contrario se pasa al bloque del else en donde se abre nuevamente un if y un else y así sucesivamente para cada valor. El bloque del último else devuelve el décimo valor pues con los condicionales if anteriores se descarta que los demás valores sean los mayores. 
+La función es análoga para calcular el menor. 
+\end{document}
