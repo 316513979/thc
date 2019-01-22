@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 316513979, Diego Armando Santillán Arriaga, Taller de Herramientas Computacionales
-# El objetivo de este programa es crear un convertidor de escalas de temperatura:
-# centígrados a fahrenheit y viceversa. 
+# El objetivo de este programa es mostrar una tabla de equivalencia en la que se muestren
+# algunas temperaturas medidas en grados centígrados y su equivalencia en grados fahrenheit.
 
 import Problema3L
 print 'Las entradas de texto se deben de escribir entre comillas'

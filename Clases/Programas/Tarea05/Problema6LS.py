@@ -1,9 +1,11 @@
 #!/usr/bin/python2.7
 # -*- coding: utf-8 -*-
-# 316513979, Diego Armando Santillán Arriaga, Taller de Herramientas Computacionales
-# El objetivo de este programa es calcular el promedio de 10 valores numéricos
-# cualesquiera utilizando listas y el ciclo for. También funciona como media ponderada
-# por lo que su aplicación podría ser de utilidad para la labor docente. 
+# 316513979, Diego Armando Santillán Arriaga, Taller de Herramientas Computacionale
+# Este problema es muy parecido al problema 6: ambos arrojan el promedio de 10 números. La diferencia
+# está en que en este se utilizan listas y el ciclo for
+# para calcularlo. Esto hace que también funcione como media ponderada de modo
+# que a cada valor se le podría dar un "peso" distinto. Por ello
+# es de utilidad para la labor docente. 
 
 import Problema6L
 

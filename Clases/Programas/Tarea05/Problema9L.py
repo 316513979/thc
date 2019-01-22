@@ -1,8 +1,9 @@
 def divisibilidad(a):
     i=1
-    print '%d es divisible entre:' % (a)
+    L=[]
     while 1<=i and i<=a:
         r=a%i
         if r == 0:
-            print i
+            L.append (i)
         i=i+1
+    return L

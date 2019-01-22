@@ -3,7 +3,8 @@
 # 316513979, Diego Armando Santillán Arriaga, Taller de Herramientas Computacionales
 # El objetivo de este programa es calcular el máximo común divisor de dos números
 # enteros cualesquiera y desplegar en una lista los residuos que se van obteniendo
-# al calcular el M.C.D a través del algoritmo de Euclides.
+# al calcular el M.C.D a través del algoritmo de Euclides. Consideré útil esta información
+# porque puede mostrar patrones interesantes. 
 
 import Problema1L
 print '''Dados dos enteros, a y b, el algoritmo de Euclides consiste en la
