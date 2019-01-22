@@ -1,0 +1,24 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 2}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+En este problema tenemos que determinar los valores del tiempo, medido en segundos, cuando una pelota está a una altura dada después de ser lanzada. Las variables independientes son la velocidad inicial (v0) y la altura (y). Por esta razón utilizaremos la fórmula $y = v0 + \frac{1}{2}*g*t^{2}$ para resolver el problema. Sin embargo debemos transformar la expresión a $ t = \frac{v0 +- \sqrt{{v0}^{2}-2*g*y}}{g} $. Asimismo la altura de la pelota por arriba del punto de lanzamiento la consideraremos positiva y en consecuencia la constante de gravedad tendrá un valor de $g=-9.81 \frac{m}{s}$.  
+\section*{Analizar y delimitar}
+Solo tomaremos en cuenta valores de tiempo positivos y alturas positivas (arriba del punto de lanzamiento). Por otro lado, a muchas alturas les corresponderan 2 tiempos distintos por lo que tendremos que dividir la fórmulaque vamos a utilizar en 2 resultados: $ t1 = \frac{v0 + \sqrt{{v0}^{2}-2*g*y}}{g} $ y $ t2 = \frac{v0 - \sqrt{{v0}^{2}-2*g*y}}{g} $. Para que en el caso de las alturas que solo tienen un tiempo arrojemos un solo resultado utilizaremos los condicionales if y else. En el caso de las demás alturas arrojaremos los dos resultados t1 y t2.
+
+\section*{Solución}
+Para solucionar el problema primero generamos las fórmulas para encontrar los tiempos (t1 y t2). Indicamos al programa que obtuviera los valores para t1 y t2 y luego con los condicionales if y else hicimos que si t1 es igual a t2 despliege solo un resultado mientras que si son distintos despliege ambos. 
+
+	
+\end{document}

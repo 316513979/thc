@@ -1,0 +1,22 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 5}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+El problema consiste en generar una función que calcule la suma de los números naturales hasta el natural n que introduce el usuario. Esta suma es 0+1+2+...+n. 
+\section*{Analizar y delimitar}
+Las entradas de la función son números naturales y las salidas también por lo que este es su dominio y rango. Para solucionar el problema utilizaremos una variable que funcione como contador, una variable que vaya acumulando el resultado de las sumas y un ciclo while.  
+\section*{Solución}
+Inicialmente se tienen 2 variables i=0 y s=0; i es el contador y s acumula el resultado de las sumas. Con el ciclo while i va adquiriendo los valores desde el 0 hasta el n y cada uno se va sumando a la variable s. La última repetición sucede cuando i=n-1 por lo que, en el bloque del ciclo, i se vuelve n y agrega a la suma de los valores anteriores. 
+
+\end{document}

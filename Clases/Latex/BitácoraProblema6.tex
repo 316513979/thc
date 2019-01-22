@@ -1,0 +1,25 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 6}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+El problema consiste en generar una función que calcule el promedio de 10 valores cualesquiera. La fórmula correspondiente es $ m = \frac{v1+v2+v3+v4+v5+v6+v7+v8+v9+v10}{10} $ donde v1, v2, ..., v10 son los valores que se promediarán.
+\section*{Analizar y delimitar}
+Las entradas y salidas de la función son números reales por lo que este es su dominio y rango.
+Para generarla utilizaremos la fórmula mencionada anteriormente con una pequeña modificación: el 10 tendrá punto decimal. Así la expresión que se va a utilizar es: $ m = \frac{v1+v2+v3+v4+v5+v6+v7+v8+v9+v10}{10.0} $.  
+\section*{Solución}
+El funcionamiento de la solución es muy sencillo: 
+se introducen los 10 valores que se van a promediar, estos sustituyen a las variables en la fórmula mencionada anteriormente. El resultado se asigna a la variable p y después su valor se despliega en una cadena de texto que indica que ese es el promedio. 
+
+
+\end{document}

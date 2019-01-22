@@ -1,0 +1,26 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 4}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+Este problema consiste generar una función que devuelva el enésimo término de la sucesión de Fibonacci. Los primeros 2 términos de la sucesión son 0 y 1 respectivamente. El resto de los términos se construyen sumando los dos anteriores. 
+\section*{Analizar y delimitar}
+La solución estará diseñada para los enteros positivos y el 0, este será el dominio y rango de la función. Los instrumentos útiles para resolver el problema son variables, el ciclo while y posiblemente los condicionales if y else. También necesita haber una variable que actué como contador para limitar la repetición de la suma de los términos.  
+\section*{Solución}
+La variable independiente de la función es n, el número de término. Los dos primeros términos se generan con condicionales if y else anidados en otro condicional if y else: como estos corresponden a los términos 1 y 2 el primer if se activa si n<3. Luego el condicional anidado devuelve 0 si n=1 ó 1 si n=2. A partir de aquí los demás términos se generan con una suma.   Este bloque se activa si 3<=n, es decir, si no se cumplió el primer if. Entonces se reasignan valores a las variables a=0 y b=1 de tal manera que los términos de la sucesión se asignan a la variable b cuyo valor devuelve la función. 
+
+\section*{Comentarios}
+Para poder construir el programa tuve que basarme en un ejercicio similar que encontre en el link https://www.w3resource.com/python-exercises/python-conditional-exercise-9.php porque no se me ocurrían las operaciones a efectuar entre las variables para encontrar los términos. Gracias al ejercicio de internet me di cuenta de que como había que organizar las variables para que se generaran los términos
+de la sucesión.
+	
+\end{document}

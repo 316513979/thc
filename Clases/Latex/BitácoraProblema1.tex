@@ -1,0 +1,35 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 1}
+\author{Diego Armando Santillán Arriaga}
+\date{16/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+El problema consiste en poder calcular el máximo común divisor de cualesquiera dos enteros utilizando el algoritmo de Euclides. El algoritmo de Euclides funciona de la siguiente manera:
+Dados dos enteros, a y b, el algoritmo de Euclides consiste en la
+fórmula a=(bq)+r donde q y r son enteros y r es llamado residuo. Si en esta expresión
+r=0 entonces el M.C.D de a y b es q. De cualquier otra forma se utiliza el valor
+de r para generar la expresión b=r(q1)+r1 donde q1 y r1 son enteros. A esta expresión
+se le aplican los mismos criterios que a la anterior por lo que el proceso sigue
+hasta que el residuo rn es 0.
+\section*{Analizar y delimitar}
+Los instrumentos que nos serán de utilidad para resolver el problema son los condicionales if, el ciclo while y la operación módulo.
+El algoritmo de Euclides se debe de construir con estos instrumentos. Por ejemplo la operación módulo la podemos utilizar para generar el residuo. 
+\section*{Solución}
+La solución consiste en utilizar la operación módulo para calcular el residuo de la división entera de 2 números. El resultado se asigna a una variable, r. Luego como el residuo siempre es positivo con un ciclo while hacemos que mientras r sea mayor que 0 se se lleve a cabo la operación módulo entre b y r y nuevamente el resultado se vuelva a asignar a r. De esta forma el proceso continúa hasta que el residuo es 0. Finalmente la función devuelve el valor de r. 
+
+\section*{Comentarios}
+Este programa fue el que más trabajo me costó hacer porque no se me. ocurría un programa para resolverlo. En parte esto se debió a que no seguí las sugerencias del profesor pues nos había dicho que consultaramos el algoritmo de Euclides para resolverlo pero en un inicio yo quería hacerlo de otra manera. Sin embargo a la hora de resolver el problema en clase me dí cuenta que era mucho más sencillo resolverlo con el algoritmo de Euclides por lo que comencé a estudiarlo para hacer el programa. Aún así tardé unos días más para construir el programa que me permitió resolver el problema. Considero que entender como funcionaba el algoritmo y estructurar el programa etapa por etapa en mi imaginación fueron los puntos fundamentales de la solución al problema. 
+	
+\end{document}
+	
+	
+	

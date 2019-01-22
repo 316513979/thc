@@ -1,0 +1,27 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 3}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{Definir}
+Este problema consiste en transformar un valor de temperatura de grados centígrados a fahrenheit o viceversa. La equivalencia entre ambas escalas de temperatura está dada por: 
+
+$F = \frac{9*C}{5} + 32$ en el caso de grados centígrados a fahrenheit y $ C = \frac{5*(F-32)}{9}$ en el caso de fahrenheit a centígrados. 
+\section*{Analizar y delimitar}
+Queremos transformar cualquier temperatura de una escala a otra por lo que el dominio de la función son los reales. 
+\\
+Podemos utilizar los condicionales if y else para que el usuario seleccionela conversión que quiere realizar.  
+\section*{Solución}
+Primero con un ciclo if y else basado en los valores de 2 variables el usuario puede elegir entre convertir grados centígrados a fahrenheit o viceversa. Las variables involucradas podían tener el valor 'centígrados' o 'fahrenheit'. El primer condicional se activaba si los valores de las variables eran 'centígrados' y 'fahrenheit', el else correspondiente a la vez abre otro condicional if y else. El primero se activa si las variables tienen los valores de 'fahrenheit' y 'centígrados' respectivamente y el else correspondiente marca error si ambas variables tienen el mismo nombre. Una vez que se activa alguno de los condicionales if, el usuario introduce la medida de temperatura que quiere convertir y con las fórmulas mencionadas anteriormente se devuelve la equivalencia. 
+
+	
+\end{document}
