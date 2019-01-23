@@ -1,0 +1,17 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 10L}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{¿Cómo resolví el problema?}
+Escogí devolver los múltiplos de 3 entre 2 números que selecciona el usuario porque así la función resulta útil para otros programas. El programa consiste en lo siguiente. Inicialmente con un par de condicionales if y else se determina el orden adecuado de las variables. Esto permite al usuario introducir los números en el orden que desee. Luego dentro del bloque de cada condicional con un ciclo while una variable toma todos los valores entre ambos números y a cada uno le aplica la operación módulo con 3 como divisor. Si el resultado de la operación es igual a 0 el valor se agrega a la lista gracias a un condicional if que está dentro del bloque del while. La función devuelve la lista. 
+\end{document}

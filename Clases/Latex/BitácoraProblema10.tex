@@ -1,0 +1,20 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 10}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{¿Cómo resolví el problema?}
+Escogí calcular la cantidad de múltiplos de 3 que hay entre 2 números dados, a y b, porque considero que es una tarea útil. Me basé en el problema 8 para plantear el programa. La función es muy similar al problema 8: con condicionales if y else se distingue si a<=b o viceversa. Esto permite que se puedan escribir las entradas de la función en cualquier orden. El bloque de cada condicional tiene las mismas instrucciones, solo cambia el orden de las variables. Con un ciclo while se hace que una variable adquiera todos los valores que hay entre los dos números. A cada uno de estos valores se aplica la módulo con 3 de modo que devuelve el residuo del cociente entre el valor y 3. Luego utilizando el condicional if, si el residuo es 0 se suma una unidad al contador de los múltiplos de 3.     
+
+
+  
+\end{document}

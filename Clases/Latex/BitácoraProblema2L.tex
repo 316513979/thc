@@ -1,0 +1,19 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 2L}
+\author{Diego Armando Santillán Arriaga}
+\date{22/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{¿Cómo resolví el problema?}
+El problema 2L es diferente al problema 2: ahora a partir de la velocidad inicial se calcula la altura de la pelota con respecto al punto de lanzamiento en distintos
+instantes de tiempo. Esta modificación la hice porque considero que esta información nos da una idea de la una trayectoria de la pelota y se puede utilizar para trazar graficarla.
+Primero utilizando funciones, se calcula el instante en el que la altura de la pelota vuelve a ser 0 y se divide el tiempo en 11 intervalos. Los condicionales if y else distinguen si la pelota estuvo en reposo, en cuyo caso la lista tiene como único valor 0, o en movimiento. Si sucede lo último con un ciclo while el tiempo va adquiriendo valores desde el 0 hasta el instante en que la pelota regresa a la altura del punto de lanzamiento. El incremento del tiempo es el tamaño de cada intervalo que se calculó con las funciones. Cada valor se sustituye en la fórmula para calcular la posición y el resultado se agrega a una lista. Al final se despliega esta lista. 
+\end{document}

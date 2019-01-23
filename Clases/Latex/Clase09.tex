@@ -13,17 +13,36 @@
 \begin{document}
 	\maketitle
 	\newpage
+\section*{Notas}
 Para saber cual es el tipo de una variable se escribe type("variable")
 type("variable")
-El comando tmp (temporal) 
-\section{Libros el LaTex}
-Entre los formatos para escribir en LaTex está el de libro. El formato de libro nos permite incluir portada, introducción, índice y organización por capítulos, entre otras cosas. 
- 
+El comando tmp (temporal) permite hacer una asignación temporal a una variable. A continuación se muestra un ejemplo de su uso:
 \begin{verbatim}
 if a<b:
-      tmp = b
-       b = a
-       a = tmp
+tmp = b
+b = a
+a = tmp
 r=a%b       
 \end{verbatim}
+ 
+\section{Libros en LaTex}
+Entre los formatos para escribir en LaTex está el de libro. El formato de libro nos permite incluir portada, introducción, índice y organización por capítulos, entre otras cosas. 
+
+Para agregar un índice, próximo al comando begin se escribe
+\begin{verbatim}
+\tableofcontents
+\end{verbatim}
+
+Para crear un capítulo se utiliza:
+\begin{verbatim}
+\chapter{"título del capítulo"}
+\end{verbatim} 
+Automáticamente el capítulo se registra en el índice
+
+Para agregar bibliografía se utiliza:
+\begin{verbatim}
+\begin{thebibliography}{"número de referencias que se van a registrar}
+\end{thebibliography}
+\end{verbatim} 
+Asimismo para agregar referencias se utiliza bibitem{"libro"} en el caso de libros y textit{"autor, año, etc} en el caso de otros documentos. 
 \end{document}
