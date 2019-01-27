@@ -1,0 +1,56 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Preguntas de la clase 13}
+\author{Diego Armando Santillán Arriaga}
+\date{26/01/19}
+
+\begin{document}
+	\maketitle
+	\newpage
+\textbf{¿Cómo se llaman las 2 partes que componen una función recursiva?}
+\\
+R: Base de recursividad y regla de recursividad. 
+\\\\
+\textbf{¿A qué se refiere el ámbito local de validez de una variable?}
+\\
+R: Las variables locales son las que pertenecen a una función y están dentro de su bloque. 
+\\\\
+\textbf{¿Qué es una variable global?}
+\\
+R: Las variables globales son las que se declaran fuera de una función y no tienen sangría. 
+\\\\
+Considere la siguiente función:
+\begin{verbatim}
+def suma(n):
+    if n==1:
+        return 1
+    else:
+        return n+suma(n-1)   
+\end{verbatim}
+\textbf{¿Es recursiva?}
+\\
+R: Sí.
+\\\\
+\textbf{¿Cuál es la diferencia entre una función recursiva y una función iterativa?}
+\\
+R: Las funciones iterativas utilizan ciclos for o while para repetir una intrucción mientras que las recursivas hacen que un resultado se base en otro anterior para repetir una instrucción.
+\\\\
+\textbf{Escriba la función mostrada anteriormente de forma iterativa o recursiva según corresponda:}
+\\
+R:
+\begin{verbatim}
+def suma(n):
+    i=1
+    s=0
+    while i<=n:
+        s=s+i
+        i=i+1
+    return s   
+\end{verbatim}
+
+\end{document}

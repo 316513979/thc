@@ -4,7 +4,6 @@ def lista_infinita(x):
         yield i*x
         i+= 1
 
-for n in lista_infinita():
-    print n
-    
+   
+
     

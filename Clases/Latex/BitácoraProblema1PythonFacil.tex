@@ -1,0 +1,18 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+
+\title{\Huge Problema 1 Python Fácil}
+\author{Diego Armando Santillán Arriaga}
+\date{26/01/19}
+
+\begin{document}
+\maketitle
+\newpage
+\section*{¿Cómo resolví el problema?}
+Primero utilicé un condicional if para determinar si las listas tienen el mismo tamaño ya que de otra forma quedan descartadas. Después si ambas listas tienen el mismo tamaño se activa un ciclo for que recorre una lista que tiene los índices de ambas listas (cómo son del mismo tamaño, tienen los mismos índices). En cada repetición se extraen los elementos de las listas que tienen el índice correspondiente. Luego con condicionales if y else, si los elementos son iguales se suma una unidad a un contador, "i", y si son diferentes se descartan las listas. Al final se usando un condicional if si el valor del contador "i" es igual al tamaño de las listas el algoritmo devuelve que las listas son iguales. 
+
+\end{document}
